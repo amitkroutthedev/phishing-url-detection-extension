@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  min-width: 35em;
+  max-width: 35em;
+  min-height: 15em;
+  max-height: 15em;
+  background-color: #242933;
+}
+.card {
+  padding: 0 0.5rem;
+}
+.title {
+  color: #38bdf8;
+  text-align: center;
+}
+.result {
+  color: #a6adba;
+  overflow-x: hidden;
+  padding: 0.5rem;
+  border-radius: 10px;
+  background-color: #1a1e25;
+  margin-bottom: 2rem;
+  font-size: 1rem;
+}
+.loader {
+  display: grid;
+  place-items: center;
+}
+svg path,
+svg rect {
+  fill: #ff6700;
+}
